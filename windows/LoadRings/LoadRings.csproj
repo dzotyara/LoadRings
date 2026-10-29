@@ -14,8 +14,4 @@
     <EnableWindowsTargeting>true</EnableWindowsTargeting>
   </PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="System.Diagnostics.PerformanceCounter" Version="10.0.0" />
-  </ItemGroup>
-
 </Project>
