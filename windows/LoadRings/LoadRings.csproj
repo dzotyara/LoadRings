@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <AssemblyName>LoadRings</AssemblyName>
+    <RootNamespace>LoadRings</RootNamespace>
+    <Version>0.1.0</Version>
+    <!-- Lets the project restore and compile on macOS/Linux too (it still only runs on Windows). -->
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Diagnostics.PerformanceCounter" Version="10.0.0" />
+  </ItemGroup>
+
+</Project>

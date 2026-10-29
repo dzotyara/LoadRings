@@ -1,0 +1,11 @@
+# macOS
+macos/.build/
+macos/build/
+.swiftpm/
+.DS_Store
+
+# Windows
+windows/**/bin/
+windows/**/obj/
+.vs/
+*.user

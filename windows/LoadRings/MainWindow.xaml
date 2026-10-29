@@ -1,0 +1,12 @@
+<Window x:Class="LoadRings.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="LoadRings"
+        Width="164" Height="164"
+        WindowStyle="None" AllowsTransparency="True" Background="Transparent"
+        ResizeMode="NoResize" ShowInTaskbar="False" WindowStartupLocation="Manual">
+    <Border CornerRadius="16" Background="#D91C1C21" BorderBrush="#26FFFFFF" BorderThickness="1">
+        <!-- 9px grid margin + 7px ring margin = 16px padding, 14px between rings, same as the macOS widget. -->
+        <UniformGrid x:Name="Rings" Rows="2" Columns="2" Margin="9" />
+    </Border>
+</Window>
